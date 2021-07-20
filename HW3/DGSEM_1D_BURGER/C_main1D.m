@@ -33,7 +33,7 @@ addpath SemLib
 %==========================================================================
 % LOAD DATA FOR TEST CASE
 %==========================================================================
-nRef=round(-log2(h));
+nRef=round(log2(10/h));
 Dati = C_dati(TestName);
 Dati.nRefinement = nRef;
 
